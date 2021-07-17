@@ -25,10 +25,11 @@
 non-essential styles:
 just for appearance; change whatever you want
 */
-.carousel{
+.carousel {
     user-select: none;
     margin: 10px;
 }
+
 .slide {
     font-size: 40px;
     padding: 40px;
@@ -56,23 +57,26 @@ just for appearance; change whatever you want
 .slide:nth-of-type(5) {
     background: purple;
 }
-.indicators{
+
+.indicators {
     margin: 0;
     padding: 0;
     list-style: none;
-} 
+}
 
 .indicators,
-.controls{
+.controls {
     display: flex;
     gap: 10px;
     margin: 10px 0;
 }
-.indicator{
+
+.indicator {
 
 }
+
 .indicator,
-.control{
+.control {
     background-color: gray;
     color: white;
     padding: 10px 10px;
@@ -85,6 +89,7 @@ just for appearance; change whatever you want
     justify-content: center;
     align-items: center;
 }
-.indicator.active{
+
+.indicator.active {
     background-color: red;
 }
